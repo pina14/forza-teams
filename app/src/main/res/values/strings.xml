@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Forza Teams</string>
+    <string name="name_country_header">Name/Country</string>
+    <string name="is_national">National</string>
+    <string name="national_team_image_info">Is a national team!</string>
+    <string name="title_activity_team">Team Details</string>
+    <string name="team_country">Team Country:</string>
+</resources>
