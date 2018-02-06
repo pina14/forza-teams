@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.team_row.view.*
  */
 class TeamListViewHolder(view : View) : RecyclerView.ViewHolder(view){
     val teamNameTextView : TextView = view.team_name_text
-    val teamCountryTextView : TextView = view.team_country_text
+    val teamCountryTextView : TextView = view.team_description
     val teamIsNationalTextView : ImageView = view.is_national_image
 
 }

@@ -22,12 +22,16 @@ class TeamActivity : AppCompatActivity() {
         //set team name
         team_name.text = team.teamName
 
-        //set different image for national and non-national teams
-        val image = if(team.isNationalTeam) R.drawable.flags else R.drawable.leagues
+        //set different image and description for national and non-national teams
+        val image : Int
+        if(team.isNationalTeam){
+            image =  R.drawable.flags
+            team_description.text = getString(R.string.national_team_description, team.teamCountry)
+        } else {
+            image = R.drawable.leagues
+            team_description.text = getString(R.string.non_national_team_description, team.teamName, team.teamCountry)
+        }
         team_background_image.setImageResource(image)
-
-        //set team country
-        team_country_text.text = team.teamCountry
     }
 
 }

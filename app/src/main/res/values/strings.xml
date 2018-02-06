@@ -2,6 +2,8 @@
     <string name="app_name">Forza Teams</string>
     <string name="name_country_header">Name/Country</string>
     <string name="is_national">National</string>
+    <string name="national_team_description">This is the national team of %1$s.</string>
+    <string name="non_national_team_description">%1$s is a football club from %2$s.</string>
     <string name="national_team_image_info">Is a national team!</string>
     <string name="title_activity_team">Team Details</string>
     <string name="team_country">Team Country:</string>
